@@ -1,0 +1,175 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 24rem;
+    }
+
+    h1 span {
+        font-size: 8.66rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 20rem;
+    }
+
+    h1 span {
+        font-size: 7.22rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+    }
+
+    .coreServices-content_item {
+        width: 50%;
+    }
+
+    .stats-content_item {
+        width: 50%;
+        margin-top: 4rem;
+    }
+
+    .services_card {
+        width: 48%;
+    }
+
+    .clients-content figure {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .portfolio-work {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-work_left {
+        width: 100%;
+    }
+
+    .portfolio-work_right {
+        width: 100%;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .work-left_item {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .work-card {
+        width: 100%;
+    }
+
+    .work-card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 16rem;
+    }
+
+    h1 span {
+        font-size: 5.77rem;
+    }
+
+    .footer-join input[type="email"] {
+        width: 30.5rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    h1 {
+        font-size: 12rem;
+    }
+
+    h1 span {
+        font-size: 4.33rem;
+    }
+
+    .coreServices-content_item {
+        width: 100%;
+    }
+
+    .stats-content_item {
+        width: 100%;
+    }
+
+    .services_card {
+        width: 100%;
+    }
+
+    .clients-content figure {
+        width: 100%;
+    }
+
+    .team_card {
+        width: 100%;
+    }
+
+    .footer-join input[type="email"] {
+        width: 25.5rem;
+    }
+
+    p.portfolio-text {
+        max-width: 90%;
+    }
+
+    p.services-text {
+        max-width: 90%;
+    }
+
+    .team-text {
+        max-width: 90%;
+    }
+
+    .footer-join p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h1 span {
+        font-size: 2.88rem;
+    }
+
+    .footer-join input[type="email"] {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .footer-join input[type="submit"] {
+        width: 100%;
+        margin-left: 0;
+    }
+}
